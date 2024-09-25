@@ -1,25 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dosis:wght@200..800&family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+	</head>
+
+
+<style>
+body {
+	background-color: rgb(142,168,160);
+}
+.center{
+	text-align: center;
+}
+.larger-image {
+	width: 500px;
+}
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dosis-normal {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <300>;
+  font-style: normal;
+}
+.gowun-batang-regular {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gowun-batang-bold {
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.josefin-sans-name {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <300>;
+  font-style: normal;
+}
+h1 {
+	color: slategrey;
+	font-family: "abril-fatface-regular";
+	font-size: 350%;
+	border-color: rgb(168, 142, 163);
+	border-width: 15px;
+	border-style: double;
+	border-radius: 10px;
+	background-color: lightyellow;
+
+}
+p {
+	font-family: "gowun-batang-regular";
+	font-size: 115%;
+}
+h2 {
+	font-size: 150%;
+	background-color: lightyellow;
+	border-color: rgb(168, 142, 163);
+	border-width: 5px;
+	border-style: solid;
+	border-radius:10px;
+	display: inline-block;
+	padding: 10px;
+}
+ul {
+	text-align: center;
+	list-style-position: inside;
+	font-size: 115%;
+}
+footer {
+	background-color: lightyellow;
+}
+
+	</style>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Ava Orr's Website</title>
 </head>
-<body>
-<h1>Ava Orr's J4502 Website</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+<body>
+	<div class= "center">
+<h1 class= abril-fatface-regular> 
+Ava Orr's J4502 Website</h1>
+<p class=gowun-batang-regular>
+	Lorem ipsum odor amet, consectetuer adipiscing elit. Scelerisque consequat commodo senectus eu; dignissim himenaeos nec fermentum pharetra. Nulla montes sapien tristique taciti lacinia proin dolor dictumst. Rhoncus neque adipiscing interdum etiam pulvinar cursus. Magnis auctor sociosqu fusce ante tempor ipsum vestibulum. Orci in magna varius etiam, maximus mi suscipit aenean. Cubilia bibendum lacinia dolor; nullam iaculis augue. Quis justo sociosqu venenatis nunc et; sollicitudin sed eu. Dui lorem nunc adipiscing diam ad hac lobortis.
+
+Morbi enim amet, sit amet lacinia semper. Mollis laoreet fusce dictum dis nulla dis! Mus nullam conubia lectus a risus vel. Pellentesque libero hac integer quis gravida porttitor. Id fermentum ullamcorper nec potenti, per condimentum efficitur. Bibendum himenaeos pretium laoreet laoreet pretium curae erat vehicula gravida. Cubilia egestas commodo nullam facilisis ipsum elementum velit. Eleifend molestie nam porta nulla egestas dui rutrum vulputate. Justo in nibh habitasse dapibus varius.</p>
 </body>
 </html>
 
-<a href="mailto:avaeliseorr@gmail.com"><img src="img/avaorr.jpeg" alt="ava smiling and holding her yellow cat"> </a>
+<a href="mailto:avaeliseorr@gmail.com">
+	<img class= "larger-image" src="img/avaorr.jpeg" 
+	alt="ava smiling and holding her yellow cat"> </a>
 
-<ul>
+<h2 class=abril-fatface-regular>Classes I am taking this semester:</h2>
+<ul class= dosis-normal>
 	<li>Communications Law</li>
 	<li>Death, Grief and Loss</li>
 	<li>Fundamentals of Design</li>
@@ -27,8 +116,12 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<li>Principles of Entrepreneurship</li>
 </ul>
 
-<a href="https://sites.google.com/view/avaorr/home">
+<footer>
+<a class= josefin-sans-name href="https://sites.google.com/view/avaorr/home">
 Link to my portfolio
 </a>
-
-<a href="contact.html"> Contact Me</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class= josefin-sans-name href="contact.html"> Contact Me</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class= josefin-sans-name href="old-html/index.html">Link to old index.html</a>
+</footer>
